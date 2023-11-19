@@ -1,2 +1,2 @@
-# kumarc2705.github.io
-Personal website
+# My Personal website
+Home
