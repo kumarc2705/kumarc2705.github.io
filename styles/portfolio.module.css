@@ -3,8 +3,8 @@
 .portfolio {
   font-family: 'Arial', sans-serif;
   padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 10000px;
+  margin: 0;
 }
 
 .header {
@@ -14,6 +14,7 @@
 
 .mainContent {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .introSection, .projectsSection, .contactSection {
@@ -34,10 +35,17 @@
   color: #888;
 }
 
-.profilePhoto {
-  width: 400px; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
-  border-radius: 50%; /* Make the image circular */
-  margin-right: 20px;
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Apply flex styles to individual divs */
+.firstFlexItem {
+  flex: 1; /* This item will take up twice as much space as the second item */
+}
+
+.secondFlexItem {
+  flex: 4; /* This item will take up half the space of the first item */
 }
 

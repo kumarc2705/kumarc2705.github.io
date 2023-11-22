@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    width:fit-content
+    /* Add any other styles for the container if needed */
+  }
+  
+  .topLeftImage {
+    position: relative;
+    top: 2;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image circular */
+    /* margin-right: 5px; */
+    /* You can adjust the top and left values to position the image as desired */
+  }
