@@ -34,7 +34,7 @@ const Portfolio: React.FC = () => {
         <section className={styles.contactSection}>
           <h2>Contact Me</h2>
           <p>Email: <a href="mailto:kumarc2705@gmail.com">kumarc2705@gmail.com</a></p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/kumarc">linkedin.com/in/kumarc</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/kumarc2705">linkedin.com/in/kumarc2705</a></p>
         </section>
       </main>
       <footer className={styles.footer}>
