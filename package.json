@@ -1,14 +1,18 @@
 {
-  "name": "web-portfolio",
+  "homepage": "https:kumarc2705.github.io/",
+  "name": "my-portfolio-page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "gh-pages": "^6.1.0",
     "@heroicons/react": "^2.0.18",
     "minimatch": "^9.0.3",
     "next": "14.0.3",
