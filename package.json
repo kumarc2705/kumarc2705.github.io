@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && npx gh-pages -b gh-pages -d dist"
+    "deploy": "next build && npx gh-pages -b gh-pages -d dist"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
